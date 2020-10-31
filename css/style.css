@@ -6,24 +6,32 @@
 
 body{
 	background-image: url("https://images.unsplash.com/photo-1501571351385-494b9d2ccb67?ixlib=rb-1.2.1&auto=format&fit=crop&w=743&q=80");
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: cover;
-	background-position-x: center;
+	background-position: center center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	min-height: 97vh;
+	min-height: 100vh;
 	background-color: #191919;
 	font-family: "Poppins", sans-serif;
 	margin: 0;
 }
 
 h1{
-	font-size: 3em;
-	margin-top: -2em;
+	font-size: 4rem;
+	margin-top: -10rem;
+	color: white;
 }
 
-.countdown-container{
+.countdown-container {
 	display: flex;
+	color: white;
+}
+
+.big-text{
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0 2rem;
 }

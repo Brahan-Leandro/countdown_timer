@@ -21,13 +21,16 @@ function countdown()
 
 	console.log(`${days} days ${hours} hours ${minutes} minutes ${secondsLeft} seconds left for our roast`)
 
-	daysEl.innerHTML = days;
-	hoursEl.innerHTML = hours;
-	minsEl.innerHTML = minutes;
-	secondsEl.innerHTML = secondsLeft;
+	daysEl.innerHTML = increasesZero(days);
+	hoursEl.innerHTML = increasesZero(hours);
+	minsEl.innerHTML = increasesZero(minutes);
+	secondsEl.innerHTML = increasesZero(secondsLeft);
 }
 
-
+function increasesZero(time) 
+{
+	return time < 10 ? `0${time}` : time
+}
 
 
 countdown()

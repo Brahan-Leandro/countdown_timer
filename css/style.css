@@ -30,6 +30,8 @@ h1{
 .countdown-container {
 	display: flex;
 	color: white;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .big-text{

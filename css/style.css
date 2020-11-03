@@ -11,6 +11,7 @@ body{
 	background-position: center center;
 	display: flex;
 	flex-direction: column;
+	background-repeat: no-repeat;
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
@@ -44,4 +45,20 @@ h1{
 
 .countdown-el span{
 	font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 768px)
+{
+	h1
+	{
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
+
+	.big-text
+	{
+		font-size: 4rem;
+		margin: 0 1rem;
+	}
 }
